@@ -2,7 +2,7 @@ stopper = ""
 buildingType = ""
 
 while stopper != "x":
-    buildingType1 = input("Enter '1' for Residential or '2' for Commercial building: ")
+    buildingType1 = input("Enter '1' for Residential or '2' for Commercial building, or 'x' if finished: ")
     if buildingType1 == "x":
         quit()
     else:
