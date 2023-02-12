@@ -10,5 +10,5 @@ while input("Enter 'x' if finished: ") != "x":
 
 
 topMarkIndex = resultsList.index(max(resultsList))
-print(f" The best result was {max(resultsList)} by {namesList[topMarkIndex]}")
+print(f" The best result was {max(resultsList)} by {namesList[topMarkIndex]} with an average score of {sum(resultsList) / len(resultsList)}")
 
